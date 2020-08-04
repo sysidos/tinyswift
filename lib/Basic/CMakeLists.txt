@@ -1,0 +1,42 @@
+add_library(
+        swiftBasic STATIC
+
+        Cache.cpp
+        ClusteredBitVector.cpp
+        Demangle.cpp
+        Demangler.cpp
+        DemangleWrappers.cpp
+        DiagnosticConsumer.cpp
+        DiverseStack.cpp
+        Edit.cpp
+        EditorPlaceholder.cpp
+        FileSystem.cpp
+        JSONSerialization.cpp
+        LangOptions.cpp
+        LLVMContext.cpp
+        Mangler.cpp
+        ManglingUtils.cpp
+        PartsOfSpeech.def
+        Platform.cpp
+        PrefixMap.cpp
+        PrettyStackTrace.cpp
+        PrimitiveParsing.cpp
+        Program.cpp
+        Punycode.cpp
+        PunycodeUTF8.cpp
+        QuotedString.cpp
+        Remangle.cpp
+        Remangler.cpp
+        SourceLoc.cpp
+        StringExtras.cpp
+        TaskQueue.cpp
+        ThreadSafeRefCounted.cpp
+        Timer.cpp
+        Unicode.cpp
+        UnicodeExtendedGraphemeClusters.cpp.gyb
+        UUID.cpp
+        Version.cpp
+
+        TaskQueue/TaskQueue.inc
+        TaskQueue/Unix/TaskQueue.inc
+)
